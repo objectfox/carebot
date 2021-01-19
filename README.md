@@ -6,5 +6,5 @@ Code is in careclock.py, requirements are in requirements.txt, messages are in m
 You can set it up to run from a cron with something like this:
 
 ```
-* * * * * cd /home/objectfox/careclock && source /home/objectfox/careclock/env/bin/activate && source /home/objectfox/careclock/creds.sh && python /home/objectfox/careclock/generate.py > /home/objectfox/careclock/cron.log
+* * * * * cd /home/objectfox/careclock && source /home/objectfox/careclock/env/bin/activate && source /home/objectfox/careclock/creds.sh && python /home/objectfox/careclock/careclock.py > /home/objectfox/careclock/cron.log
 ```
