@@ -127,3 +127,9 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# Our credential file
+creds.sh
+
+# Our timestamp file
+time_to_tweet.txt
